@@ -26,7 +26,7 @@ export const projectData = [
 		image: img3,
 		title: "Personal Portfolio",
 		category: "Design, Frontend",
-		url: "",
+		url: "https://mern-portfolio-prince.vercel.app/",
 		github: "https://github.com/Prince-Singh-05/mern-portfolio",
 	},
 	{
