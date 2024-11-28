@@ -1,6 +1,7 @@
 import "./About.css";
 import Info from "./Info";
 import AboutImg from "../../assets/profile.jpg";
+import CV from "../../assets/Prince_CV.pdf";
 
 export default function About() {
 	return (
@@ -22,10 +23,9 @@ export default function About() {
 						user experiences.
 					</p>
 
-					{/* Add CV file in assets folder and link it here */}
 					<a
 						download="Prince-CV"
-						href=""
+						href={CV}
 						alt="resume file"
 						className="button button--flex"
 					>
